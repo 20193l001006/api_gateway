@@ -9,8 +9,8 @@
 
         public function __construct() {
             $this->gatewayDTO = new GatewayDTO();
-            $this->sakila = 'http://localhost/api/api_cine/';
-            $this->auth = 'http://localhost/api/api_usuario/';
+            $this->sakila = 'https://apicinepro.herokuapp.com/';
+            $this->auth = 'https://apiusuariopro.herokuapp.com/';
         }
 
         public function actor($peticion) {
